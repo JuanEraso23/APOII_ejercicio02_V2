@@ -7,19 +7,18 @@ public class Main {
 	public static void main(String[] args) {
 		//Scanner
 		Scanner sc = new Scanner(System.in);
-        
+		System.out.print("Ingrese las Calificaciones del Estud.");
+		
 		//Atributos
-        System.out.print("Ingrese la Velocidad: ");
-        int v = sc.nextInt();
-        
-        System.out.print("Ingrese el Tiempo (Segundos): ");
-        int t = sc.nextInt();
-        
+        float n1=sc.nextFloat();
+        float n2=sc.nextFloat();
+        float n3=sc.nextFloat();
+            
         //Formula
-        int d = (v * t);
-        
-        //Resultado
-        System.out.println("Distancia: " + d);
+        float prom=((n1+n2+n3)/3);
+		
+		//Resultado
+        System.out.print("Promedio: "+prom);
         sc.close();  
 	}
 
