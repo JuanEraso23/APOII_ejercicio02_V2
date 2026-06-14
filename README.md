@@ -4,13 +4,15 @@ Curso de Algoritmos y Programación II.
 
 ## Descripción
 
-Programa en Java que calcula la distancia recorrida a partir de la velocidad y el tiempo.
+Programa en Java que calcula el promedio de tres calificaciones almacenadas en variables.
+
+El ejercicio utiliza operaciones aritméticas básicas para obtener el promedio final del estudiante.
 
 Se aplica la fórmula:
 
-Distancia = Velocidad × Tiempo
+Promedio = (Nota1 + Nota2 + Nota3) / 3
 
-Este ejercicio forma parte de los primeros fundamentos de programación estructurada.
+Este ejercicio hace parte de los fundamentos de programación estructurada y manejo de variables numéricas.
 
 ### Programas
 
